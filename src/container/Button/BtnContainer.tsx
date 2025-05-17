@@ -96,8 +96,7 @@ const BtnCotainer = ({ btnInfo }: BtnDataProps) => {
       <ButtonProgress btnInfo={btnInfo} fee={fee} setFee={setFee} />
       <ButtonInfo btnInfo={btnInfo} />
       {/* 입출차 버튼 */}
-      {btnInfo.parking_status === 'CREATED' ||
-      btnInfo.parking_status === 'UNUSED' ? (
+      {btnInfo.parking_status === 'CREATED' ? (
         <ApplyBtn onClick={handleEntry}>입차하기</ApplyBtn>
       ) : (
         <ApplyBtn onClick={handleExit}>출차하기</ApplyBtn>
