@@ -8,7 +8,7 @@
 
 ## 1. 플로우 차트
 
-<img src="./public/images/flowchart.png" />
+![flowchart](./public/images/flowchart.png)
 
 ## 2. 동작 예시 (GIF)
 
