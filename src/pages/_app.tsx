@@ -10,6 +10,8 @@ import { ThemeProvider } from 'styled-components';
 import GlobalStyles from '../styles/globalstyles';
 import theme from '../styles/theme';
 import '../styles/fonts/index.css';
+// components
+import A2HS from '@/components/Common/A2HS';
 
 const App: NextPage<AppProps> = ({ Component, pageProps }: AppProps) => {
   const setScreenSize = () => {
@@ -29,6 +31,7 @@ const App: NextPage<AppProps> = ({ Component, pageProps }: AppProps) => {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyles />
+      <A2HS />
       <Component {...pageProps} />
     </ThemeProvider>
   );
