@@ -18,7 +18,7 @@
 [홈페이지] → [이용정보 입력] → [주차권 발급] → [입차] → [차단기 열림]
 ```
 
-<img src="./public/images/create.GIF" width="300" height="620"/>
+<img src="./public/images/entry.GIF" width="300" height="620"/>
 
 ### 결제 및 출차 시뮬레이션
 
